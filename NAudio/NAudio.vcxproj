@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C6FAD4DF-A0A3-4837-8841-91F8465BE294}</ProjectGuid>
+    <RootNamespace>NAudio</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)/Source;$(ProjectDir)../NUtil/Source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAsManaged>
+      </CompileAsManaged>
+      <CompileAsWinRT>
+      </CompileAsWinRT>
+      <TreatWarningAsError>
+      </TreatWarningAsError>
+      <MultiProcessorCompilation>
+      </MultiProcessorCompilation>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <OmitFramePointers>false</OmitFramePointers>
+      <PreprocessorDefinitions>WIN32;DEBUG;_WINDOWS;_CRT_NO_VA_START_VALIDATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>
+      </StringPooling>
+      <DisableSpecificWarnings>4018;4068;4244;4263;4264;4305;4800</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\NAudio\ADSR.h" />
+    <ClInclude Include="Source\NAudio\Arithmetic.h" />
+    <ClInclude Include="Source\NAudio\AudioFileUtils.h" />
+    <ClInclude Include="Source\NAudio\BasicDelay.h" />
+    <ClInclude Include="Source\NAudio\BitCrusher.h" />
+    <ClInclude Include="Source\NAudio\BLEPOscillator.h" />
+    <ClInclude Include="Source\NAudio\BufferFiller.h" />
+    <ClInclude Include="Source\NAudio\BufferPlayer.h" />
+    <ClInclude Include="Source\NAudio\CombFilter.h" />
+    <ClInclude Include="Source\NAudio\CompressorLimiter.h" />
+    <ClInclude Include="Source\NAudio\ControlArithmetic.h" />
+    <ClInclude Include="Source\NAudio\ControlCallback.h" />
+    <ClInclude Include="Source\NAudio\ControlChangeNotifier.h" />
+    <ClInclude Include="Source\NAudio\ControlComparison.h" />
+    <ClInclude Include="Source\NAudio\ControlConditioner.h" />
+    <ClInclude Include="Source\NAudio\ControlCounter.h" />
+    <ClInclude Include="Source\NAudio\ControlDbToLinear.h" />
+    <ClInclude Include="Source\NAudio\ControlDelay.h" />
+    <ClInclude Include="Source\NAudio\ControlFloor.h" />
+    <ClInclude Include="Source\NAudio\ControlGenerator.h" />
+    <ClInclude Include="Source\NAudio\ControlMetro.h" />
+    <ClInclude Include="Source\NAudio\ControlMetroDivider.h" />
+    <ClInclude Include="Source\NAudio\ControlMidiToFreq.h" />
+    <ClInclude Include="Source\NAudio\ControlParameter.h" />
+    <ClInclude Include="Source\NAudio\ControlPrinter.h" />
+    <ClInclude Include="Source\NAudio\ControlPulse.h" />
+    <ClInclude Include="Source\NAudio\ControlRandom.h" />
+    <ClInclude Include="Source\NAudio\ControlRecorder.h" />
+    <ClInclude Include="Source\NAudio\ControlSnapToScale.h" />
+    <ClInclude Include="Source\NAudio\ControlStepper.h" />
+    <ClInclude Include="Source\NAudio\ControlSwitcher.h" />
+    <ClInclude Include="Source\NAudio\ControlTrigger.h" />
+    <ClInclude Include="Source\NAudio\ControlTriggerFilter.h" />
+    <ClInclude Include="Source\NAudio\ControlValue.h" />
+    <ClInclude Include="Source\NAudio\ControlXYSpeed.h" />
+    <ClInclude Include="Source\NAudio\DelayUtils.h" />
+    <ClInclude Include="Source\NAudio\DSPUtils.h" />
+    <ClInclude Include="Source\NAudio\Effect.h" />
+    <ClInclude Include="Source\NAudio\Filters.h" />
+    <ClInclude Include="Source\NAudio\FilterUtils.h" />
+    <ClInclude Include="Source\NAudio\FixedValue.h" />
+    <ClInclude Include="Source\NAudio\Generator.h" />
+    <ClInclude Include="Source\NAudio\LFNoise.h" />
+    <ClInclude Include="Source\NAudio\Mixer.h" />
+    <ClInclude Include="Source\NAudio\MonoToStereoPanner.h" />
+    <ClInclude Include="Source\NAudio\Noise.h" />
+    <ClInclude Include="Source\NAudio\RampedValue.h" />
+    <ClInclude Include="Source\NAudio\RectWave.h" />
+    <ClInclude Include="Source\NAudio\Reverb.h" />
+    <ClInclude Include="Source\NAudio\RingBuffer.h" />
+    <ClInclude Include="Source\NAudio\SampleTable.h" />
+    <ClInclude Include="Source\NAudio\SawtoothWave.h" />
+    <ClInclude Include="Source\NAudio\SineWave.h" />
+    <ClInclude Include="Source\NAudio\SquareWave.h" />
+    <ClInclude Include="Source\NAudio\StereoDelay.h" />
+    <ClInclude Include="Source\NAudio\Synth.h" />
+    <ClInclude Include="Source\NAudio\TableLookupOsc.h" />
+    <ClInclude Include="Source\NAudio\NAudioCore.h" />
+    <ClInclude Include="Source\NAudio\NAudioFrames.h" />
+    <ClInclude Include="Source\NAudio\TriangleWave.h" />
+    <ClInclude Include="Source\NAudio.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\NAudio\ADSR.cpp" />
+    <ClCompile Include="Source\NAudio\Arithmetic.cpp" />
+    <ClCompile Include="Source\NAudio\AudioFileUtils.cpp" />
+    <ClCompile Include="Source\NAudio\BasicDelay.cpp" />
+    <ClCompile Include="Source\NAudio\BitCrusher.cpp" />
+    <ClCompile Include="Source\NAudio\BLEPOscillator.cpp" />
+    <ClCompile Include="Source\NAudio\BufferFiller.cpp" />
+    <ClCompile Include="Source\NAudio\BufferPlayer.cpp" />
+    <ClCompile Include="Source\NAudio\CombFilter.cpp" />
+    <ClCompile Include="Source\NAudio\CompressorLimiter.cpp" />
+    <ClCompile Include="Source\NAudio\ControlArithmetic.cpp" />
+    <ClCompile Include="Source\NAudio\ControlCallback.cpp" />
+    <ClCompile Include="Source\NAudio\ControlChangeNotifier.cpp" />
+    <ClCompile Include="Source\NAudio\ControlComparison.cpp" />
+    <ClCompile Include="Source\NAudio\ControlConditioner.cpp" />
+    <ClCompile Include="Source\NAudio\ControlCounter.cpp" />
+    <ClCompile Include="Source\NAudio\ControlDbToLinear.cpp" />
+    <ClCompile Include="Source\NAudio\ControlDelay.cpp" />
+    <ClCompile Include="Source\NAudio\ControlFloor.cpp" />
+    <ClCompile Include="Source\NAudio\ControlGenerator.cpp" />
+    <ClCompile Include="Source\NAudio\ControlMetro.cpp" />
+    <ClCompile Include="Source\NAudio\ControlMetroDivider.cpp" />
+    <ClCompile Include="Source\NAudio\ControlMidiToFreq.cpp" />
+    <ClCompile Include="Source\NAudio\ControlParameter.cpp" />
+    <ClCompile Include="Source\NAudio\ControlPrinter.cpp" />
+    <ClCompile Include="Source\NAudio\ControlPulse.cpp" />
+    <ClCompile Include="Source\NAudio\ControlRandom.cpp" />
+    <ClCompile Include="Source\NAudio\ControlRecorder.cpp" />
+    <ClCompile Include="Source\NAudio\ControlSnapToScale.cpp" />
+    <ClCompile Include="Source\NAudio\ControlStepper.cpp" />
+    <ClCompile Include="Source\NAudio\ControlSwitcher.cpp" />
+    <ClCompile Include="Source\NAudio\ControlTrigger.cpp" />
+    <ClCompile Include="Source\NAudio\ControlTriggerFilter.cpp" />
+    <ClCompile Include="Source\NAudio\ControlValue.cpp" />
+    <ClCompile Include="Source\NAudio\ControlXYSpeed.cpp" />
+    <ClCompile Include="Source\NAudio\DelayUtils.cpp" />
+    <ClCompile Include="Source\NAudio\DSPUtils.cpp" />
+    <ClCompile Include="Source\NAudio\Effect.cpp" />
+    <ClCompile Include="Source\NAudio\Filters.cpp" />
+    <ClCompile Include="Source\NAudio\FilterUtils.cpp" />
+    <ClCompile Include="Source\NAudio\FixedValue.cpp" />
+    <ClCompile Include="Source\NAudio\Generator.cpp" />
+    <ClCompile Include="Source\NAudio\LFNoise.cpp" />
+    <ClCompile Include="Source\NAudio\Mixer.cpp" />
+    <ClCompile Include="Source\NAudio\MonoToStereoPanner.cpp" />
+    <ClCompile Include="Source\NAudio\Noise.cpp" />
+    <ClCompile Include="Source\NAudio\RampedValue.cpp" />
+    <ClCompile Include="Source\NAudio\RectWave.cpp" />
+    <ClCompile Include="Source\NAudio\Reverb.cpp" />
+    <ClCompile Include="Source\NAudio\RingBuffer.cpp" />
+    <ClCompile Include="Source\NAudio\SampleTable.cpp" />
+    <ClCompile Include="Source\NAudio\SawtoothWave.cpp" />
+    <ClCompile Include="Source\NAudio\SineWave.cpp" />
+    <ClCompile Include="Source\NAudio\StereoDelay.cpp" />
+    <ClCompile Include="Source\NAudio\Synth.cpp" />
+    <ClCompile Include="Source\NAudio\TableLookupOsc.cpp" />
+    <ClCompile Include="Source\NAudio\NAudioFrames.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NUtil\NUtil.vcxproj">
+      <Project>{f5891ced-235f-4f3f-8c79-858d2fae4c78}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

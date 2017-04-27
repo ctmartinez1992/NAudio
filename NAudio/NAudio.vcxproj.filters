@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\NAudio">
+      <UniqueIdentifier>{afb22b1e-3c9e-464e-ab65-d01b3137e1bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NAudio">
+      <UniqueIdentifier>{eef03c6e-c5c6-478d-b873-3507f0d78557}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\NAudio\ADSR.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\Arithmetic.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\AudioFileUtils.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\BasicDelay.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\BitCrusher.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\BLEPOscillator.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\BufferFiller.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\BufferPlayer.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\CombFilter.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\CompressorLimiter.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlArithmetic.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlCallback.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlChangeNotifier.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlComparison.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlConditioner.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlCounter.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlDbToLinear.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlDelay.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlFloor.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlGenerator.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlMetro.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlMetroDivider.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlMidiToFreq.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlParameter.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlPrinter.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlPulse.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlRandom.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlRecorder.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlSnapToScale.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlStepper.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlSwitcher.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlTrigger.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlTriggerFilter.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlValue.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\ControlXYSpeed.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\DelayUtils.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\DSPUtils.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\Effect.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\Filters.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\FilterUtils.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\FixedValue.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\Generator.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\LFNoise.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\Mixer.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\MonoToStereoPanner.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\Noise.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\RampedValue.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\RectWave.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\Reverb.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\RingBuffer.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\SampleTable.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\SawtoothWave.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\SineWave.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\SquareWave.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\StereoDelay.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\Synth.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\TableLookupOsc.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\TriangleWave.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\NAudioCore.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NAudio\NAudioFrames.h">
+      <Filter>Header Files\NAudio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\NAudio\TableLookupOsc.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\Synth.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\StereoDelay.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\SineWave.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\SawtoothWave.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\SampleTable.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\RingBuffer.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\Reverb.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\RectWave.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\RampedValue.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\Noise.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\MonoToStereoPanner.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\Mixer.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\LFNoise.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\Generator.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\FixedValue.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\FilterUtils.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\Filters.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\Effect.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\DSPUtils.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\DelayUtils.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlXYSpeed.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlValue.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlTriggerFilter.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlTrigger.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlSwitcher.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlStepper.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlSnapToScale.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlRecorder.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlRandom.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlPulse.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlPrinter.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlParameter.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlMidiToFreq.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlMetroDivider.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlMetro.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlGenerator.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlFloor.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlDelay.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlDbToLinear.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlCounter.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlConditioner.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlComparison.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlChangeNotifier.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlCallback.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ControlArithmetic.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\CompressorLimiter.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\CombFilter.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\BufferPlayer.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\BufferFiller.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\BLEPOscillator.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\BitCrusher.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\BasicDelay.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\AudioFileUtils.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\Arithmetic.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\ADSR.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NAudio\NAudioFrames.cpp">
+      <Filter>Source Files\NAudio</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

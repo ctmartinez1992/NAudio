@@ -1,0 +1,70 @@
+﻿  ADSR.cpp
+  Generating Code...
+  Compiling...
+  TableLookupOsc.cpp
+  Synth.cpp
+  StereoDelay.cpp
+  SineWave.cpp
+  SawtoothWave.cpp
+  SampleTable.cpp
+  RingBuffer.cpp
+  Reverb.cpp
+  RectWave.cpp
+  RampedValue.cpp
+  Noise.cpp
+  NAudioFrames.cpp
+  MonoToStereoPanner.cpp
+  Mixer.cpp
+  LFNoise.cpp
+  Generator.cpp
+  FixedValue.cpp
+  Filters.cpp
+  FilterUtils.cpp
+  Effect.cpp
+  Generating Code...
+  Compiling...
+  DelayUtils.cpp
+  DSPUtils.cpp
+  ControlXYSpeed.cpp
+  ControlValue.cpp
+  ControlTriggerFilter.cpp
+  ControlTrigger.cpp
+  ControlSwitcher.cpp
+  ControlStepper.cpp
+  ControlSnapToScale.cpp
+  ControlRecorder.cpp
+  ControlRandom.cpp
+  ControlPulse.cpp
+  ControlPrinter.cpp
+  ControlParameter.cpp
+  ControlMidiToFreq.cpp
+  ControlMetroDivider.cpp
+  ControlMetro.cpp
+  ControlGenerator.cpp
+  ControlFloor.cpp
+  ControlDelay.cpp
+  Generating Code...
+  Compiling...
+  ControlDbToLinear.cpp
+  ControlCounter.cpp
+  ControlConditioner.cpp
+  ControlComparison.cpp
+  ControlChangeNotifier.cpp
+  ControlCallback.cpp
+  ControlArithmetic.cpp
+  CompressorLimiter.cpp
+  CombFilter.cpp
+  BufferPlayer.cpp
+  BufferFiller.cpp
+  BitCrusher.cpp
+  BasicDelay.cpp
+  BLEPOscillator.cpp
+  AudioFileUtils.cpp
+  Arithmetic.cpp
+  Generating Code...
+ControlSnapToScale.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+ControlMidiToFreq.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+ControlFloor.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+ControlDbToLinear.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+ControlCallback.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  NAudio.vcxproj -> C:\Users\carlos\Documents\Visual Studio 2015\Projects\Nespithe\x64\Debug\NAudio.lib
